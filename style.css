@@ -372,6 +372,71 @@ main .left .sidebar .active i,
 }
 /* END CREATE POST SECTION  */
 
+/* START FEEDS SECTION  */
+/* .middle .feeds {
+  background: var(--color-white);
+  margin-top: 1rem;
+} */
+
+.middle .feeds .feed {
+  background: var(--color-white);
+  border-radius: var(--card-border-radius);
+  padding: var(--card-padding);
+  margin: 1rem 0;
+  font-size: 0.85rem;
+  line-height: 1.5;
+}
+
+.middle .feeds .feed .head {
+  display: flex;
+  justify-content: space-between;
+  /* margin-bottom: 1rem; */
+}
+
+.middle .feeds .feed .head .user {
+  display: flex;
+  gap: 1rem;
+  /* justify-content: space-between;
+  align-items: center; */
+}
+
+.middle .feeds .photo {
+  border-radius: var(--card-border-radius);
+  overflow: hidden;
+  margin: 0.7rem 0;
+}
+
+.middle .feed .action-buttons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.4rem;
+  margin: 0.6rem;
+}
+
+.middle .liked-by {
+  display: flex;
+  align-items: center;
+}
+.middle .liked-by span {
+  width: 1.4rem;
+  height: 1.4rem;
+  border-radius: 50%;
+  display: block;
+  overflow: hidden;
+  border: 2px solid var(--color-white);
+  margin-left: -0.6rem;
+}
+
+.middle .liked-by span:first-child {
+  margin: 0;
+}
+
+.middle .liked-by p {
+  margin-left: 0.5rem;
+}
+/* END FEEDS SECTION  */
+
 /* END MIDDLE SECTION  */
 
 /* END MAIN SECTION BAR  */
